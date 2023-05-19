@@ -1,0 +1,17 @@
+.homeContent{
+    display: flex;   
+    gap: 30rem;
+}
+
+@media (max-width: 1024px) {
+    .homeContent{
+        display: flex;   
+        gap: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .homeContent{
+        display: block;   
+    }
+}

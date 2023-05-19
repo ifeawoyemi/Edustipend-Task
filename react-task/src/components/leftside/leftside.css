@@ -1,0 +1,19 @@
+.leftsideContent{
+    margin-top: 150px;
+}
+
+.playButton{
+    margin-bottom: 25px;
+    background-color: rgb(255, 166, 0);
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .homeContent{
+        display: block;   
+    }
+}

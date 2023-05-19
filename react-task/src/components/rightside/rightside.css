@@ -1,0 +1,44 @@
+.rightsidewrapper{
+    width: 300px;
+}
+
+.rightsideContainer{
+    background-color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    width: 230px;
+    margin-bottom: 15px;
+}
+
+span{
+    font-style: italic;
+    margin: 0px 5px;
+}
+
+.iconButton{
+    cursor: pointer;
+}
+
+.buttonMore button{
+    margin-bottom: 25px;
+    background-color: rgb(255, 166, 0);
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .rightsidewrapper{
+        width: 400px;
+    }
+}

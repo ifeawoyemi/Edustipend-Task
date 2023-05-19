@@ -1,0 +1,30 @@
+.navbar{
+    padding-top: 30px;
+}
+
+.navbarWrapper{
+    background-color: white;
+    border: 1px solid rgb(122, 112, 112);
+    border-radius: 6px;
+    padding: 13px;
+}
+
+.navbarLeft{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.contactButton{
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.signupButton{
+    background-color: rgb(255, 166, 0);
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
